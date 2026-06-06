@@ -1,0 +1,82 @@
+[
+  {
+    "title": "Java Fundamentals",
+    "description": "Introduction to Java programming.",
+    "category": "Programming",
+    "instructor": "John Smith",
+    "durationHours": 12,
+    "active": true
+  },
+  {
+    "title": "Spring Boot Essentials",
+    "description": "Build REST APIs with Spring Boot.",
+    "category": "Backend",
+    "instructor": "Sarah Lee",
+    "durationHours": 15,
+    "active": true
+  },
+  {
+    "title": "MongoDB Basics",
+    "description": "Learn document databases with MongoDB.",
+    "category": "Database",
+    "instructor": "Michael Tan",
+    "durationHours": 8,
+    "active": true
+  },
+  {
+    "title": "React Fundamentals",
+    "description": "Frontend development with React.",
+    "category": "Frontend",
+    "instructor": "Lisa Wong",
+    "durationHours": 10,
+    "active": true
+  },
+  {
+    "title": "JavaScript Advanced",
+    "description": "Modern JavaScript concepts and patterns.",
+    "category": "Frontend",
+    "instructor": "David Lim",
+    "durationHours": 14,
+    "active": true
+  },
+  {
+    "title": "Docker for Developers",
+    "description": "Containerization fundamentals.",
+    "category": "DevOps",
+    "instructor": "Kevin Ong",
+    "durationHours": 6,
+    "active": true
+  },
+  {
+    "title": "Git and GitHub",
+    "description": "Version control and collaboration.",
+    "category": "Tools",
+    "instructor": "Alicia Chan",
+    "durationHours": 5,
+    "active": true
+  },
+  {
+    "title": "REST API Design",
+    "description": "Best practices for API development.",
+    "category": "Backend",
+    "instructor": "Farid Ahmad",
+    "durationHours": 9,
+    "active": true
+  },
+  {
+    "title": "Web Security Basics",
+    "description": "Authentication and security concepts.",
+    "category": "Security",
+    "instructor": "Nur Aina",
+    "durationHours": 7,
+    "active": true
+  },
+  {
+    "title": "Full Stack Development",
+    "description": "Combine frontend and backend skills.",
+    "category": "Programming",
+    "instructor": "Admin User",
+    "durationHours": 20,
+    "active": true
+  }
+]
