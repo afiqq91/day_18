@@ -1,0 +1,43 @@
+services:
+
+  mongo:
+    image: mongo:8
+    container_name: instructor-mongo
+
+    ports:
+      - "27017:27017"
+
+    volumes:
+      - mongo_data:/data/db
+
+  backend:
+    build:
+      context: .
+
+    container_name: instructor-backend
+
+    depends_on:
+      - mongo
+
+    environment:
+      MONGO_HOST: mongo
+      MONGO_PORT: 27017
+      MONGO_DATABASE: instructor_db
+
+    ports:
+      - "8080:8080"
+
+  frontend:
+    build:
+      context: ./instructor-frontend
+
+    container_name: instructor-frontend
+
+    depends_on:
+      - backend
+
+    ports:
+      - "5173:80"
+
+volumes:
+  mongo_data:
